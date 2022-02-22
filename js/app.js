@@ -29,7 +29,7 @@ let navbarHidingtimer;
 function setNavbarHidingTimer() {
     navbarHidingtimer = setTimeout(function () {
         navbar_list.style.display = 'none';
-    }, 500);
+    }, 1000);
 }
 /**
  * End Helper Functions
